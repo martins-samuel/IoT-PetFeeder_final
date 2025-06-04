@@ -1,0 +1,81 @@
+body {
+  background-image: url("imagens/negativo-179-173-97-238-163508-Copia.jpg");
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* para evitar espaçamento padrão */
+  min-height: 100vh; /* garantir que o body ocupe a tela toda */
+  background-size: cover; /* para cobrir toda a área */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  border: 1px solid #4CAF50;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  background: white;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* um leve sombreamento para destaque */
+}
+
+header {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+h1, h2 {
+  color: #333;
+  margin: 10px 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input[type=time] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  max-height: 150px;
+  overflow-y: auto;
+  text-align: left;
+  margin-top: 15px;
+}
+
+li {
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}

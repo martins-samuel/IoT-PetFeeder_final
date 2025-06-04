@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alimentador de Pets</title>
+  <link rel="stylesheet" href="style-novo.css" />
+  <script type="module" src="script-novo.js"></script>
+  <link rel="shortcut icon" href="imagens/pet-food.png" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    
+    <img src="imagens/Infinity__4_-removebg-preview2-Copia.png" alt="Logo do projeto" />
+  </header>
+
+  <div class="container">
+    <h1>Alimentador de Pets</h1>
+    <button id="liberar-btn">Liberar Ração</button>
+
+    <h2>Agendar Alimentação</h2>
+    <form id="agendar-form">
+      <label>Horário 1: <input type="time" id="hora1" required /></label><br />
+      <label>Horário 2: <input type="time" id="hora2" required /></label><br /><br />
+      <button type="submit">Salvar Horários</button>
+    </form>
+
+    <h2>Nível de Ração</h2>
+    <p id="nivel-info">Carregando...</p>
+
+    <h2>Histórico</h2>
+    <ul id="historico-lista"></ul>
+  </div>
+</body>
+</html>
