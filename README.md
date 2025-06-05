@@ -31,10 +31,10 @@ script.js: Este arquivo JavaScript contém toda a lógica de interação com o F
 
 style.css: Este arquivo (ou, como no seu projeto, classes Tailwind CSS incorporadas diretamente) define a estilização da página. Ele garante que a interface tenha uma aparência agradável, seja responsiva e fácil de usar em diferentes dispositivos.
 
-![image](https://github.com/user-attachments/assets/8358cd5a-b5cf-42d6-8918-b8521dca71b7)
 
 
-www.litter-robot.com
+![image](https://github.com/user-attachments/assets/645f7f8f-1422-4a1b-978d-5a3d80935a65)
+
 🖨 Estrutura e Impressão 3D
 A estrutura física para o projeto, incluindo carcaça e suporte para os componentes, foi baseada no design disponível no Hackster:
 Pet Feeder com ESP8266 - Projeto no Hackster
