@@ -55,7 +55,20 @@ Lá você encontra os arquivos para impressão 3D e detalhes para montagem da es
 ---
 
 ## 🔌 Esquema de ligação
-*(Adicionar imagem ou link com o diagrama das conexões)*
+### 🔄 Motor de Passo 28BYJ-48 com ULN2003:
+- IN1 → D1 (GPIO5)  
+- IN2 → D2 (GPIO4)  
+- IN3 → D3 (GPIO0)  
+- IN4 → D4 (GPIO2)  
+- VCC do ULN2003 → Vin ou fonte externa 5V  
+- GND do ULN2003 → GND da NodeMCU
+
+### 📏 Sensor Ultrassônico HC-SR04:
+- VCC → Vin (ou 5V externa)  
+- Trig → D5 (GPIO14)  
+- Echo → Divisor de tensão → D6 (GPIO12)  
+- GND → GND da NodeMCU
+
 
 ---
 
